@@ -1,5 +1,5 @@
 {% set name = "point-annotator" %}
-{% set version = "0.1.1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e05bb15d1a4a79a02222bdc51e753ca4ba4cf9a0f13d4ce0dd90ed4226727f0d
+  sha256: f00a852f605124374c6f7b5b732e335a834fe13d18ff77c079fe0fec59fd4ae5
 
 build:
   number: 0
